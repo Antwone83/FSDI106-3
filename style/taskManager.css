@@ -1,0 +1,94 @@
+
+
+h1 {
+    font-family: 'Franklin Gothic Medium';
+    color: whitesmoke;
+}
+body {
+    background-image: url("https://wallpapersafari.com/w/Z7i6L8");
+    background-color: #cccccc;
+   }
+
+.main-content {
+    display: flex;
+}
+
+.section-list {
+    flex: 5;
+    border: 1px solid orange;
+    background-image: url("./Images/Z7i6L8.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Cambria;
+    color: rgb(238, 163, 238);
+}
+
+.section-form {
+    flex: 3;
+    border: 1px solid plum;
+}
+
+.my-control {
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    background-color: seashell;
+}
+
+.my-control label {
+    display: inline-block;
+    width: 90px;
+    color: purple;
+    font-family: fantasy;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.btn {
+    font-family: Cambria;
+    font-style: italic;
+    color: rgb(52, 101, 238);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.priority-icon {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#iPriority.far {
+    color: rgb(109, 109, 109);
+}
+
+#iPriority.fas {
+    color: blue;
+}
+
+.btn-dark {
+    color: rgb(244, 134, 248);
+    cursor: pointer;
+}
+.task {
+    border: 1px solid #ababac;
+    display: flex;
+    margin-bottom: 12px;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.task i {
+    flex: 1;
+}
+
+.task .info {   
+    flex: 6;
+}
+
+.task .info p {
+    margin-bottom: 0;
+}
+
+.task .details {
+    flex: 2;
+}
